@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+/* client/src/styles/App.css */
+body{
+  font-family: Arial, sans-serif;
+}
+/* client/src/styles/ChatRoom.css */
+.chatroom-container {
+  width: 40%;
+  height: 0px;
+  border-right: 2px solid #814848;
+  padding: 20px;
+  overflow-y: auto;
+}
+/* client/src/styles/TaskBoard.css */
+.taskboard-container {
+  width: 60%;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+/* client/src/styles/HomePage.css */
+.home-container {
+  display: flex;
+  height: 100vh;
+}
+
+.chatroom {
+  width: 40%;
+  height: 100%;
+  border-right: 1px solid #ccc;
+  overflow-y: auto;
+}
+
+.taskboard {
+  flex: 1;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  width: 30%;
+  min-width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
